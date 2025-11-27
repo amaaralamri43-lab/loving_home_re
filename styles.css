@@ -1,0 +1,224 @@
+/* GLOBAL SETTINGS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1eb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER + NAVIGATION */
+header {
+    background-color: #a57b49;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;   
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    text-align: center;
+    color: #a57b49;
+}
+
+/* PACKAGE CARDS (very simple for now) */
+.card {
+    border: 1px solid #d3c7b8;
+    border-radius: 8px;
+    padding: 15px;
+    width: 260px;
+    margin: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    color: #8c6539;
+}
+
+/* CONTACT FORM */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c4b8a7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+button {
+    background-color: #a57b49;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;   
+}
+
+/* FOOTER */
+footer {
+    background-color: #a57b49;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* -------- PACKAGES PAGE -------- */
+
+.package-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.package-card {
+    background-color: #f9f5ef;
+    border: 1px solid #d0c5b7;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.package-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.package-card h3 {
+    color: #8c6539;
+    margin-bottom: 8px;
+}
+
+.package-card ul {
+    text-align: left;
+    padding-left: 18px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* -------- CONTACT PAGE -------- */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #c2b8af;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #a57b49;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #8c6539;
+}
+
+/* ------- GALLERY PAGE ------- */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 260px;
+    background-color: #faf6f1;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #d9cbb8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.gallery-item p {
+    color: #8c6539;
+    font-weight: bold;
+}
+
+/* --------- FAQ PAGE --------- */
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.faq-card {
+    background-color: #faf6f1;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d0c5b7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.faq-card h3 {
+    color: #8c6539;
+    margin-bottom: 10px;
+}
+
+.faq-card p {
+    color: #333;
+    line-height: 1.6;
+}
